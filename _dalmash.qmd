@@ -1,0 +1,249 @@
+:::{.navbar}
+
+[Overview]{.nav-option data-option="option1" onclick="showContent(this)"}
+[Features]{.nav-option data-option="option2" onclick="showContent(this)"}
+[Future]{.nav-option data-option="option3" onclick="showContent(this)"}
+[Conclusion]{.nav-option data-option="option4" onclick="showContent(this)"}
+
+:::
+
+<br>
+
+
+
+
+:::{#option1Content .content}
+
+
+::::{.ddp}
+:::{.ddp-head onclick="toggleBox(this)"}
+Scope and Genesis
+:::
+
+:::{.ddp-box}
+::::{.columns}
+:::{.column}
+`dalmash` is a toolkit for working with Pakistan Stock Exchange (PSX) data. PSX datasets often come from fragmented sources and inconsistent formats, making even basic tasks—such as building clean historical series or aligning tickers and indices—surprisingly cumbersome. Dalmash provides a simple, unified layer for ingesting, cleaning, and structuring PSX data so it can be used immediately in analysis, research, or quantitative workflows.
+
+The project grew out of the author’s own need for reliable PSX datasets. In practice, the hardest part of market analysis was not modeling but preparing the data itself. Dalmash was created to solve this problem: a lightweight, extensible tool that turns raw PSX data into consistent, time-indexed datasets suitable for research, technical analysis, and automated pipelines.
+:::
+:::{.column}
+:::{.panel-tabset}
+### Modes
+
+
+### Assumption 
+
+
+
+### Comparison 
+
+
+### Box
+
+:::
+
+:::
+::::
+
+
+:::
+::::
+
+
+::::{.ddp}
+:::{.ddp-head onclick="toggleBox(this)"}
+Problems with current infrastructure 
+:::
+
+:::{.ddp-box}
+
+:::{.panel-tabset}
+### Lack of API 
+
+::::{.columns}
+:::{.column width=40%}
+*No stable public API.* Unlike ecosystems built around tools like yfinance, the Pakistan Stock Exchange does not provide a widely used, well-documented programmatic interface for accessing market data.
+
+*Reliance on fragile data acquisition methods.* Analysts often depend on webpage scraping, broker exports, or parsing reports and spreadsheets, which can break whenever formats change.
+
+*Fragmented data sources.* Prices, index data, and market statistics are distributed across multiple locations and formats rather than a unified feed.
+
+:::
+:::{.column width=60%}
+
+<!-- Insert figure -->
+<!-- List what dalmash does. -->
+:::
+::::
+
+### Portfolio Management 
+
+::::{.columns}
+:::{.column}
+Portfolio management support is poor. Most people work by word of mouth. Better advice and analytical support needs to be given. 
+
+Brokers also do not allow you to separate your own portfolio into safe vs risky bins. Or allow you to separate money channels in case you are investing on a relative's behalf.
+
+:::
+:::{.column}
+
+<!-- Word of mouth image -->
+
+:::
+::::
+
+
+### ML Framework 
+
+80% of ML is spent on data preparation. `dalmash` does that for you so that you can spend more time on making meaningful models and predictive analyses. 
+
+
+### 
+
+
+### 
+
+
+
+:::
+
+
+
+
+:::
+::::
+
+
+
+:::
+
+
+
+
+:::{#option2Content .content}
+::::{.ddp}
+:::{.ddp-head onclick="toggleBox(this)"}
+
+Structure-Property relations in lead halide perovskites
+
+:::
+:::{.ddp-box}
+
+Study the effects of defects (atomic vacancies, interstitials, antisite substitutions, dislocations) on optical and transport properties of lead halide perovskites.
+
+:::
+::::
+
+::::{.ddp}
+:::{.ddp-head onclick="toggleBox(this)"}
+
+Transition metal dichalcogenide heterostructures for energy storage and electrocatalysis
+
+:::
+:::{.ddp-box}
+
+Modeling of TMDC heterostructures using the tight-binding (Hubbard) and DFT approaches. 
+
+Theoretical catalytic activity for $MoS_2$ is comparable to Pt for the hydrogen evolution reaction (HER). Defects can be used to increase the exposure of the catalytically active sites.
+
+:::
+::::
+
+
+:::
+
+:::{#option3Content .content}
+
+::::{.ddp}
+:::{.ddp-head onclick="toggleBox(this)"}
+
+Condensed matter systems
+
+:::
+:::{.ddp-box}
+
+Influence of defects on band structures, phase transitions, and collective excitations in 2D materials. 
+
+:::
+::::
+
+::::{.ddp}
+:::{.ddp-head onclick="toggleBox(this)"}
+
+DFT + ML
+
+:::
+:::{.ddp-box}
+
+Machine learning based discovery of the exact XC functional. 
+
+:::
+::::
+
+
+::::{.ddp}
+:::{.ddp-head onclick="toggleBox(this)"}
+
+Electrochemical Processes
+
+:::
+:::{.ddp-box}
+
+- Energy storage materials
+- Evaluation of materials (particularly MOFs) for electrocatalysis, $CO_2$ absorption, and water splitting using DFT and molecular dynamics simulations. 
+
+:::
+::::
+
+
+::::{.ddp}
+:::{.ddp-head onclick="toggleBox(this)"}
+
+Battery Systems 
+
+:::
+:::{.ddp-box}
+
+- Using neural networks to recover underlying differential equations of (say) the Doyle-Fuller-Newman model. (see SINDy, Mechanistic Neural Networks).
+![MNNs are designed to learn explicit ODE representations that approximate dynamical systems and discover governing equations underlying data. https://arxiv.org/pdf/2402.13077.pdf](figs/projects/MNN.jpg){#fig-mnn width=75%}
+
+- Dynamical modeling of battery processes such as aging, remaining useful life etc. 
+- Examine Bayesian neural networks for the above.  
+
+:::
+::::
+
+::::{.ddp}
+:::{.ddp-head onclick="toggleBox(this)"}
+
+Policy
+
+:::
+:::{.ddp-box}
+
+- Bayesian causal inference model for pollution in urban centers.
+- Energy geopolitics. How do corporate interests shape the energy policy of a country? 
+
+:::
+::::
+
+
+
+
+
+
+:::
+
+:::{#option4Content .content}
+
+Projects that I would like to work on in an ideal world. 
+
+- Quantum criticality and phase transitions 
+- Reaction diffusion systems
+- Systems with non-linear dymanics 
+- Topics in non-equilbirium thermodynamics from a stochastic lens. 
+- Stochastic modeling for financial systems
+
+:::
+
