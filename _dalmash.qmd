@@ -3,7 +3,7 @@
 [Overview]{.nav-option data-option="option1" onclick="showContent(this)"}
 [Features]{.nav-option data-option="option2" onclick="showContent(this)"}
 [Future]{.nav-option data-option="option3" onclick="showContent(this)"}
-[Conclusion]{.nav-option data-option="option4" onclick="showContent(this)"}
+[More]{.nav-option data-option="option4" onclick="showContent(this)"}
 
 :::
 
@@ -122,112 +122,21 @@ Brokers also do not allow you to separate your own portfolio into safe vs risky 
 
 
 :::{#option2Content .content}
+
+<!-- ddp -->
 ::::{.ddp}
 :::{.ddp-head onclick="toggleBox(this)"}
 
-Structure-Property relations in lead halide perovskites
+Header
 
 :::
 :::{.ddp-box}
 
-Study the effects of defects (atomic vacancies, interstitials, antisite substitutions, dislocations) on optical and transport properties of lead halide perovskites.
+Text
 
 :::
 ::::
-
-::::{.ddp}
-:::{.ddp-head onclick="toggleBox(this)"}
-
-Transition metal dichalcogenide heterostructures for energy storage and electrocatalysis
-
-:::
-:::{.ddp-box}
-
-Modeling of TMDC heterostructures using the tight-binding (Hubbard) and DFT approaches. 
-
-Theoretical catalytic activity for $MoS_2$ is comparable to Pt for the hydrogen evolution reaction (HER). Defects can be used to increase the exposure of the catalytically active sites.
-
-:::
-::::
-
-
-:::
-
-:::{#option3Content .content}
-
-::::{.ddp}
-:::{.ddp-head onclick="toggleBox(this)"}
-
-Condensed matter systems
-
-:::
-:::{.ddp-box}
-
-Influence of defects on band structures, phase transitions, and collective excitations in 2D materials. 
-
-:::
-::::
-
-::::{.ddp}
-:::{.ddp-head onclick="toggleBox(this)"}
-
-DFT + ML
-
-:::
-:::{.ddp-box}
-
-Machine learning based discovery of the exact XC functional. 
-
-:::
-::::
-
-
-::::{.ddp}
-:::{.ddp-head onclick="toggleBox(this)"}
-
-Electrochemical Processes
-
-:::
-:::{.ddp-box}
-
-- Energy storage materials
-- Evaluation of materials (particularly MOFs) for electrocatalysis, $CO_2$ absorption, and water splitting using DFT and molecular dynamics simulations. 
-
-:::
-::::
-
-
-::::{.ddp}
-:::{.ddp-head onclick="toggleBox(this)"}
-
-Battery Systems 
-
-:::
-:::{.ddp-box}
-
-- Using neural networks to recover underlying differential equations of (say) the Doyle-Fuller-Newman model. (see SINDy, Mechanistic Neural Networks).
-![MNNs are designed to learn explicit ODE representations that approximate dynamical systems and discover governing equations underlying data. https://arxiv.org/pdf/2402.13077.pdf](figs/projects/MNN.jpg){#fig-mnn width=75%}
-
-- Dynamical modeling of battery processes such as aging, remaining useful life etc. 
-- Examine Bayesian neural networks for the above.  
-
-:::
-::::
-
-::::{.ddp}
-:::{.ddp-head onclick="toggleBox(this)"}
-
-Policy
-
-:::
-:::{.ddp-box}
-
-- Bayesian causal inference model for pollution in urban centers.
-- Energy geopolitics. How do corporate interests shape the energy policy of a country? 
-
-:::
-::::
-
+<!-- -- -->
 
 
 
@@ -237,13 +146,7 @@ Policy
 
 :::{#option4Content .content}
 
-Projects that I would like to work on in an ideal world. 
-
-- Quantum criticality and phase transitions 
-- Reaction diffusion systems
-- Systems with non-linear dymanics 
-- Topics in non-equilbirium thermodynamics from a stochastic lens. 
-- Stochastic modeling for financial systems
+More from `dalmash` team.
 
 :::
 
